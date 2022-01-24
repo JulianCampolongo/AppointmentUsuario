@@ -1,6 +1,4 @@
 
-
-
 const Clickbutton = document.querySelectorAll(".button")
 const tbody = document.querySelector(".tbody")
 let carrito = []
@@ -33,7 +31,7 @@ function addItemCarrito(newItem){
 
     setTimeout(function(){
         alert.classList.add("hide")
-    }, 2000)
+    }, 1000)
     alert.classList.remove("hide")
     
     const inputElemento = tbody.getElementsByClassName("input_element")
@@ -106,7 +104,7 @@ function removeItemCarrito(e){
 
     setTimeout(function(){
         alert.classList.add("remove")
-    }, 2000)
+    }, 1000)
     alert.classList.remove("remove")
 
    tr.remove()
