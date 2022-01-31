@@ -46,8 +46,28 @@ margin-bottom: 20px;
     transform: translate(10%, -2080%);
 }
 .jula{
-    transform: translate(235%, -78%);
+    transform: translate(320px, 250px);
 }
 .hide, .remove{
     display: none;
+}
+
+#app{
+    width: 1700px;
+    margin-top: -277px;
+}
+
+@media(max-width: 500px){
+    .jula{
+        transform: translate(50px, 100px);
+        
+       
+}
+#app{
+    margin-top: -77px;
+}
+}
+
+form-control{
+padding-bottom: 1rem;
 }
