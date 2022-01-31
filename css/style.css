@@ -71,3 +71,18 @@ margin-bottom: 20px;
 form-control{
 padding-bottom: 1rem;
 }
+
+@media(min-width: 501px){
+    .jula{
+        transform: translate(320px, 250px);
+        
+       
+}
+#app{
+    margin-top: -277px;
+}
+}
+
+form-control{
+padding-bottom: 1rem;
+}
